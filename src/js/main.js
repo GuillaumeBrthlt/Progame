@@ -2,12 +2,19 @@ import '../scss/styles.scss';
 import * as bootstrap from 'bootstrap';
 import { routes } from './routes';
 
+window.onload = () => {
+  'use strict';
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('./sw.js');
+  }
+}
+
 document.querySelectorAll('[data-bs-toggle="popover"]')
 .forEach(popover => {
   new bootstrap.Popover(popover)
 })
-
-// console.log(bootstrap)
 
 const callRoute = () => {
   const { hash } = window.location;
