@@ -2,7 +2,7 @@
   "name": "The Hyper Progame",
   "short_name": "THP",
   "lang": "fr",
-  "start_url": "/index.html",
+  "start_url": "./src/index.html",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "white"
