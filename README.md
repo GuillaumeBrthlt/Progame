@@ -1,6 +1,6 @@
 <div align="center">
 
-# ProGame : les futures sorties des meilleurs jeux videos ! 
+# ProGame : Video games upcoming in 2023 
 
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
 
