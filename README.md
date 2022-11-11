@@ -19,11 +19,14 @@ Project created on React as a single page application. The goal was to create an
 You have the possibility click on the title of a game to get its details.
 Restrictions due to the use of the free version of the API limited the details available.
 
-## Mode d'emploi
+## Preview:
 
-↳ visit the website :
+### homepage
+<img src="./src/assets/readme/progame_home.png">
 
+### page detail
 
+<img src="./src/assets/readme/progame_detail.png">
 
  author of the project:
 
