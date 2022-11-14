@@ -38,31 +38,31 @@ const PageList = (argument = '') => {
       platforms.forEach(platform => {
         switch (platform.platform.slug) {
           case 'pc':
-            inner += `<img src=./public/svg/windows.svg width="18px" height="20px" alt="logo windows" class="me-2">`
+            inner += `<img src=windows.svg width="18px" height="20px" alt="logo windows" class="me-2">`
             break;
           case 'playstation':
-            inner += `<img src=./public/svg/ps4.svg width="18px" height="20px" alt="logo playstation" class="me-2">`
+            inner += `<img src=ps4.svg width="18px" height="20px" alt="logo playstation" class="me-2">`
             break;
           case 'xbox':
-            inner += `<img src=./public/svg/xbox.svg width="18px" height="20px" alt="logo xbox" class="me-2">`
+            inner += `<img src=xbox.svg width="18px" height="20px" alt="logo xbox" class="me-2">`
             break;
           case 'nintendo':
-            inner += `<img src=./public/svg/switch.svg width="18px" height="20px" alt="logo nintendo" class="me-2">`
+            inner += `<img src=switch.svg width="18px" height="20px" alt="logo nintendo" class="me-2">`
             break;  
           case 'mac':
-            inner += `<img src=./public/svg/apple-512.png width="18px" height="20px" alt="logo mac" class="me-2">`
+            inner += `<img src=apple-512.png width="18px" height="20px" alt="logo mac" class="me-2">`
             break; 
           case 'linux':
-            inner += `<img src=./public/svg/linux.svg width="18px" height="20px" alt="logo linux" class="me-2">`
+            inner += `<img src=linux.svg width="18px" height="20px" alt="logo linux" class="me-2">`
             break; 
           case 'android':
-            inner += `<img src=./public/svg/mobile.svg width="18px" height="20px" alt="logo android" class="me-2">`
+            inner += `<img src=mobile.svg width="18px" height="20px" alt="logo android" class="me-2">`
             break;  
           case 'ios':
-            inner += `<img src=./public/svg/mobile.svg width="18px" height="20px" alt="logo ios" class="me-2">`
+            inner += `<img src=mobile.svg width="18px" height="20px" alt="logo ios" class="me-2">`
             break; 
           case 'web':
-            inner += `<img src=./public/svg/windows.svg width="18px" height="20px" alt="logo web" class="me-2">`
+            inner += `<img src=windows.svg width="18px" height="20px" alt="logo web" class="me-2">`
             break; 
           default:
             break;
